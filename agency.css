@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-image: url("https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+
+}
+
+img {
+    width: 100%;
+}
+
+nav .navbar ul {
+
+    color: white;
+    display: flex;
+    justify-content:column;
+   align-items:center;
+  z-index: 1;
+  justify-content:space-between;
+  width:50%;
+  font-weight: bold;    
+  align-items: flex-end;
+
+}
+.nav seytech{
+  display:flex;
+  justify-content:column;
+  align-items:left;
+ 
+}
+
+html body {
+    margin: 0;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+}
+.text {
+    position: relative;
+    bottom: 600px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text button {
+    background-color: rgb(255, 221, 0);
+    padding: 30px 70px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-transform: capitalize;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        'one'
+        'two'
+        'three'
+        'four';
+}
